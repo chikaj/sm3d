@@ -1,0 +1,12 @@
+data/lidar/*.las
+data/lidar/*.laz
+data/lidar/*.xml
+data/shp/Building*
+data/shp/justSM.cpg
+data/shp/justSM.dbf
+data/shp/justSM.prj
+data/shp/justSM.qmd
+data/shp/justSM.shp
+data/shp/justSM.shx
+data/shp/ogrinfo.txt
+data/shp/txstDowntown*

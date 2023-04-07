@@ -1,0 +1,200 @@
+lasinfo (221128) report for 'stratmap17-50cm_2997013d4.laz'
+reporting all LAS header entries:
+  file signature:             'LASF'
+  file source ID:             947
+  global_encoding:            17
+  project ID GUID data 1-4:   00000000-0000-0000-0000-000000000000
+  version major.minor:        1.4
+  system identifier:          'RIEGL'
+  generating software:        'LIDAR1 tiled'
+  file creation day/year:     250/2017
+  header size:                375
+  offset to point data:       3826
+  number var. length records: 3
+  point data format:          6
+  point data record length:   30
+  number of point records:    0
+  number of points by return: 0 0 0 0 0
+  scale factor x y z:         0.01 0.01 0.01
+  offset x y z:               0 0 0
+  min x y z:                  601082.15 3305394.62 94.32
+  max x y z:                  602606.80 3307139.86 319.66
+  start of waveform data packet record: 0
+  start of first extended variable length record: 0
+  number of extended_variable length records: 0
+  extended number of point records: 24029753
+  extended number of points by return: 15913222 4620996 2324210 885492 236143 43482 6208 0 0 0 0 0 0 0 0
+variable length header record 1 of 3:
+  reserved             0
+  user ID              'LASF_Projection'
+  record ID            2112
+  length after header  909
+  description          'OGC WKT Coordinate System'
+    WKT OGC COORDINATE SYSTEM:
+    COMPD_CS[    
+        "NAD83(2011) / UTM zone 14N + NAVD88 height - Geoid12B (metre)",
+        PROJCS[
+            "NAD83(2011) / UTM zone 14N",
+            GEOGCS[
+                "NAD83(2011)",
+                DATUM[
+                    "NAD83_National_Spatial_Reference_System_2011",
+                    SPHEROID[
+                        "GRS 1980",
+                        6378137,
+                        298.257222101,
+                        AUTHORITY[
+                            "EPSG","7019"
+                        ]
+                    ],
+                    AUTHORITY[
+                        "EPSG",
+                        "1116"
+                    ]
+                ],
+                PRIMEM[
+                    "Greenwich",
+                    0,
+                    AUTHORITY[
+                        "EPSG",
+                        "8901"
+                    ]
+                ],
+                UNIT[
+                    "degree",
+                    0.0174532925199433,
+                    AUTHORITY[
+                        "EPSG",
+                        "9122"
+                    ]
+                ],
+                AUTHORITY[
+                    "EPSG",
+                    "6318"
+                ]
+            ],
+            PROJECTION[
+                "Transverse_Mercator"
+            ],
+            PARAMETER[
+                "latitude_of_origin",
+                0
+            ],
+            PARAMETER[
+                "central_meridian",
+                -99
+            ],
+            PARAMETER[
+                "scale_factor",
+                0.9996
+            ],
+            PARAMETER[
+                "false_easting",
+                500000
+            ],
+            PARAMETER[
+                "false_northing",
+                0
+            ],
+            UNIT[
+                "metre",
+                1,
+                AUTHORITY[
+                    "EPSG",
+                    "9001"
+                ]
+            ],
+            AXIS[
+                "Easting",
+                EAST
+            ],
+            AXIS[
+                "Northing",
+                NORTH
+            ],
+            AUTHORITY[
+                "EPSG",
+                "6343"
+            ]
+        ],
+        VERT_CS[
+            "NAVD88 height - Geoid12B (metre)",
+            VERT_DATUM[
+                "North American Vertical Datum 1988",
+                2005,
+                AUTHORITY[
+                    "EPSG",
+                    "5103"
+                ]
+            ],
+            UNIT[
+                "metre",
+                1,
+                AUTHORITY[
+                    "EPSG",
+                    "9001"
+                ]
+            ],
+            AUTHORITY[
+                "EPSG",
+                "5703"
+            ]
+        ]
+    ]
+variable length header record 2 of 3:
+  reserved             0
+  user ID              'NIIRS10'
+  record ID            4
+  length after header  10
+  description          'NIIRS10 Timestamp'
+variable length header record 3 of 3:
+  reserved             0
+  user ID              'NIIRS10'
+  record ID            1
+  length after header  26
+  description          'NIIRS10 Tile Index'
+the header is followed by 2344 user-defined bytes
+LASzip compression (version 3.1r0 c3 50000): POINT14 3
+reporting minimum and maximum for all LAS point record entries ...
+  X            60108215   60260680
+  Y           330539462  330713986
+  Z                9432      31966
+  intensity           1      65534
+  return_number       1          7
+  number_of_returns   1          7
+  edge_of_flight_line 0          0
+  scan_direction_flag 0          0
+  classification      1         14
+  scan_angle_rank     0          0
+  user_data           0          0
+  point_source_ID  2187       2192
+  gps_time 170734397.738692 170905806.326610
+  extended_return_number          1      7
+  extended_number_of_returns      1      7
+  extended_classification         1     14
+  extended_scan_angle           -36     34
+  extended_scanner_channel        0      0
+number of first returns:        15913222
+number of intermediate returns: 3495874
+number of last returns:         15912077
+number of single returns:       11291420
+overview over extended number of returns of given pulse: 11291420 4592958 4316459 2598073 963709 227049 40085 0 0 0 0 0 0 0 0
+histogram of classification of points:
+          401940  unclassified (1)
+        11039784  ground (2)
+          463232  low vegetation (3)
+          864246  medium vegetation (4)
+         7926524  high vegetation (5)
+         3296131  building (6)
+           31735  noise (7)
+            5137  wire guard (13)
+            1024  wire conductor (14)
+ +-> flagged as extended overlap: 5771743
+  +--->           15693 of those are unclassified (1)
+  +--->         3088120 of those are ground (2)
+  +--->          171298 of those are low vegetation (3)
+  +--->          277543 of those are medium vegetation (4)
+  +--->         2195008 of those are high vegetation (5)
+  +--->            1287 of those are building (6)
+  +--->           22794 of those are noise (7)
+
